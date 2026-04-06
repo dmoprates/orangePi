@@ -104,6 +104,11 @@ install_qt.sh
 qtcreator
 ```
 
+* Instalando CasaOS
+
+``` bash
+curl -fsSL https://get.casaos.io | sudo bash
+```
 
 ### Modelo base
 ``` bash
