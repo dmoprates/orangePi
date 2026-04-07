@@ -37,7 +37,19 @@ sudo desktop_login.sh diego #Login automático no sistema
 Rever, pois o comando não funcionou!! 😪
 
 ``` bash
-sudo snap install firefox
+sudo snap install firefox-esr
+
+# OU
+
+sudo snap remove firefox
+sudo add-apt-repository ppa:mozillateam/ppa
+echo '
+Package: *
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 1001
+' | sudo tee /etc/apt/preferences.d/mozilla-firefox
+sudo apt update
+sudo apt install firefox
 ```
 
 *Instalando Chromium
@@ -45,7 +57,12 @@ sudo snap install firefox
 Rever, pois o comando não funcionou!! 😪
 
 ``` bash
-sudo apt install chromium-browser
+sudo apt install chromium chromium-l10n -y
+
+# OU
+
+sudo apt install snapd
+sudo snap install chromium
 ```
 
 * Instalando o Gparted para verificar espaço de disco
