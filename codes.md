@@ -32,9 +32,7 @@ sudo desktop_login.sh diego #Login automático no sistema
 
 ## Segunda Inicialização
 
-*Instalando Firefox 
-
-Rever, pois o comando não funcionou!! 😪
+*Instalando Firefox
 
 ``` bash
 sudo snap install firefox-esr
@@ -53,8 +51,6 @@ sudo apt install firefox
 ```
 
 *Instalando Chromium
-
-Rever, pois o comando não funcionou!! 😪
 
 ``` bash
 sudo apt install chromium chromium-l10n -y
@@ -129,9 +125,4 @@ qtcreator
 
 ``` bash
 curl -fsSL https://get.casaos.io | sudo bash
-```
-
-### Modelo base
-``` bash
-
 ```
