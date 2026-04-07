@@ -2,21 +2,21 @@
 
 ## Primeira inicialização
 
-* Atualização do sistema operacional:
+* Atualização do sistema operacional ⚠️:
 
 ``` bash
 sudo apt update
 sudo apt upgrade -y
 ```
 
-* Alterar senha padrão 
+* Alterar senha padrão ⚠️
 
 ``` bash
 sudo passwd orangepi
 sudo passwd root
 ```
 
-* Criação de usuário
+* Criação de usuário 🙋🏻‍♂️
 
 ``` bash
 sudo adduser diego
@@ -32,13 +32,17 @@ sudo desktop_login.sh diego #Login automático no sistema
 
 ## Segunda Inicialização
 
-*Instalando Firefox
+*Instalando Firefox 
+
+Rever, pois o comando não funcionou!! 😪
 
 ``` bash
 sudo snap install firefox
 ```
 
 *Instalando Chromium
+
+Rever, pois o comando não funcionou!! 😪
 
 ``` bash
 sudo apt install chromium-browser
