@@ -47,8 +47,8 @@ sudo passwd root #Inserir nova senha solicitada no terminal
 :traffic_light: Alterar usuário de login automático
 
 ``` bash
-sudo auto_login_cli.sh diego #Login automático no terminal
-sudo desktop_login.sh diego #Login automático no sistema
+sudo auto_login_cli.sh dmop #Login automático no terminal
+sudo desktop_login.sh dmop #Login automático no sistema
 ```
 
 -----
@@ -159,3 +159,4 @@ WebServer
 sudo apt install nginx
 ```
 
+# Ip Público ation.dev.br -> 198.51.44.4
