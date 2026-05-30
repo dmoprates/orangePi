@@ -158,5 +158,3 @@ WebServer
 ```bash
 sudo apt install nginx
 ```
-
-# Ip Público ation.dev.br -> 198.51.44.4
